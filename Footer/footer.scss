@@ -1,0 +1,117 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 12%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 98%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+  }
+  
+  .sectionPadding {
+    padding: 2rem;
+  }
+  
+  .footer {
+    background-color: var(--blackColor);
+    color: var(--bodyColor);
+    padding: 1rem 0;  /* Add padding for spacing */
+    margin-top: auto; /* Pushes footer to bottom */
+  }
+  
+  .subFooter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subFooterLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .subFooterLinksDiv {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: var(--bodyColor);
+  }
+  
+  a {
+    color: var(--bodyColor);
+    flex-direction: row;
+  }
+  
+  .socialMedia {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icon {
+    font-size: 25px;
+    color: var(--bodyColor);
+    transform: translateY(3px);
+    &:hover {
+      color: var(--PrimaryColor);
+    }
+  }
+  
+  .subFooterLinksDiv h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+  
+  .subFooterLinksDiv p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem;
+    cursor: pointer;
+    &:hover {
+      color: var(--PrimaryColor);
+    }
+  }
+  
+  .subFooterBelow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+  }
+  
+  .subFooterBelowLinks {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .subFooterBelowLinks p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 300;
+  }
+  
+  hr {
+    color: white !important;
+    width: 100%;
+  }
+  
+  .subFooterCopyrigth {
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--bodyColor);
+    font-weight: 600;
+  }
+  
