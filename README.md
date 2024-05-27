@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+
+# Diffusion-Based-Web-Application
+
+The scientific objectives include exploring the image generation process using a diffusion model. From a technical perspective, the goal is to implements a web-based application where users can choose between AI-generated images and those made by humans.
+Diffusion model is a type of generative model that creates images by gradually reversing a process that adds noise to an image. Starting from random noise, the model incrementally removes noise through a series of steps, progressively refining the image until it reaches a high-quality output. This approach allows the model to generate diverse and detailed images by learning the complex distribution of training data.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,5 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# Diffusion-Based-Web-Application
+
 >>>>>>> e0d1496cbcfe9ecce8b31c65050623e15b72e03f
